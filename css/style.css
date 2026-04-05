@@ -265,3 +265,27 @@
     color: var(--ink);
     font-weight: 500;
   }
+
+  /* adaptivity */
+  @media (max-width: 600px) {
+    .page {
+      padding: 24px 20px;
+    }
+
+    .name {
+      font-size: 36px;
+    } 
+
+    .two-col {
+      grid-template-columns: 1fr;
+    }
+
+    .exp-item {
+      grid-template-columns: 1fr;
+    } 
+
+    .contact-row {
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
